@@ -24,11 +24,11 @@ Creates the file by creating the non available folders in the filepath and creat
 ```js
 ensure.file(filePath, "w", "766", function(err, handle) {
   if(err) console.log(err)
-  handle.read(...) 
+  fs.read(handle, ...)
   .
   .
   .
-  handle.write(...)
+  fs.write(handle,...)
 });
 ensure.close(handle, function(err){
   if(err) console.log(err)
