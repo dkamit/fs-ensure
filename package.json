@@ -1,5 +1,5 @@
 {
-  "name": "fs-ensure",
+  "name": "ensure-fs",
   "version": "1.0.0",
   "description": "ensure file operations",
   "main": "index.js",
