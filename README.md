@@ -3,7 +3,7 @@ Ensure file operations
 
 ## Installation
 ```
-npm i fs-ensure
+npm i ensure-fs
 ```
 
 ## Description
@@ -14,7 +14,7 @@ This module is platform agnostic.
 ## API
 
 ```js
-var ensure = require('fs-ensure');
+var ensure = require('ensure-fs');
 ```
 
 ###file(filePath, flags, [mode ,] callback)
